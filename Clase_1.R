@@ -15,3 +15,13 @@ lsf.str('package:foreign')
 install.packages("installr",dependencies=TRUE)
 library(installr)
 updateR()
+
+#CREAR CARPETAS DENTRO DEL REPOSITORIO
+getwd()
+
+list.files()
+dir.create("ejemcla1")
+#Acceder a la subcarpeta y crear un archivo dentro
+setwd("C:/Users/hp/Desktop/Git Repositorio R(nube)/Curso-Basico-R/ejemcla1")
+file.create("davejemp1.R")
+
